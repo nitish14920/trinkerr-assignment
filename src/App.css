@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+.search-bar {
+  padding: 1%;
+  height: 6vh;
+}
+.search-bar > input {
+  height: 5vh;
+  width: 42vw;
+}
+.list {
+  height: 100%;
+  width: 60vw;
+  margin: auto;
+}
+.wishlist-header {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  border-bottom: 1px solid lightgray;
+}
+.wishlist-header > button {
+  height: 30px;
+  margin: auto;
+}
+.search-stock-div {
+  display: flex;
+  width: 100%;
+  margin: 0px auto;
+  justify-content: space-between;
+  border: 1px solid lightgray;
+  border-top: none;
+}
+.search-stock-div > div {
+  padding: 1vw;
+}
+.wishlist-stock-prices,
+.searchlist-stock-prices {
+  text-align: left;
+}
+.green-color {
+  color: rgb(5, 255, 130);
+}
+.red-color {
+  color: rgb(252, 52, 52);
+}
+p {
+  font-size: 0.8rem;
+}
+.add_btn {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  top: 4vh;
+  border: none;
+  background-color: rgba(214, 211, 211, 0.548);
+  cursor: pointer;
+}
+.del_btn {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  bottom: 12vh;
+  left: 25%;
+  border: none;
+  background-color: rgba(214, 211, 211, 0.548);
+  cursor: pointer;
+}
