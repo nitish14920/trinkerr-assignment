@@ -7,7 +7,7 @@
 }
 .search-bar > input {
   height: 5vh;
-  width: 42vw;
+  width: 55vw;
 }
 .list {
   height: 100%;
@@ -30,7 +30,6 @@
   margin: 0px auto;
   justify-content: space-between;
   border: 1px solid lightgray;
-  border-top: none;
 }
 .search-stock-div > div {
   padding: 1vw;

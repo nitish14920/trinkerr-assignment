@@ -6,7 +6,7 @@ export const Wishlist = ({ wishlistData, setWishlistData }) => {
     setWishlistData(newWish);
   };
   return (
-    <div className="wishlist">
+    <div className="list">
       <div className="wishlist-header">
         <h1>Nitish's WishList</h1>
         <button
